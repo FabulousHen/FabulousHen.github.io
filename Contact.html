@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en"><!--Contact page-->
+<head>
+    <title> Ephraim Axelsson CV </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Making the webpage scale with mobile devices-->
+    <meta charset="UTF-8">
+    <script type="application/ld+json"> 
+        
+        {
+          "@context": "https://schema.org/",
+          "@type": "Person",
+          "@author": {
+            "@type": "Person",
+            "@name": "Ephraim Axelsson"
+          },
+          "jobTitle": "Student",
+          "description": "Personal CV",
+          "image": "https://raw.githubusercontent.com/Medieinstitutet/fed24d-html-css-inlamningsuppgift1-Ephraim-Axelsson/refs/heads/main/Portrait.png?token=GHSAT0AAAAAACYHQQ2IGHXNOARIO2QDAOCEZYG3YIA", 
+          "sameAs": ["https://github.com/Ephraim-Axelsson", "https://www.linkedin.com/in/ephraim-axelsson-80129615b/"],
+          "email": "ephraim.axelsson@gmail.com",
+          "telephone": "+46735886189"
+        }
+    </script>
+</head>
+
+
+
+<body>
+    
+    <header>
+        <div style="display: flex;"><!--Portrait-->
+            <div>
+                <img src="Portrait.png" alt="Portrait of me" width="120" height="160" loading="lazy">
+            </div>
+            <nav>
+                <ul><!--Links-->
+                    <li>
+                        <a href="index.html">Main Page</a>    
+                    </li>
+                    <li>
+                        <a href="Contact.html">Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <h1>Hi, here you will you find a form where you can contact me</h1> 
+    </header>
+    <main>
+        <div><!--Contact form-->
+            <form action="Contact.html" method="get"> 
+                
+                <label for="name">Name</label> 
+                <div>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                </div>
+        
+                <label for="email">Email</label>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                
+               <label for="message">Message</label>
+                <div>
+                    <textarea id="message" name="message" placeholder="Write your message here" style="height: 100px;"></textarea>
+                </div>
+                <input type="submit" value="Send Request" />
+
+            </form>
+        </div>
+    </main>   
+            
+    <footer>
+        <section><!--Contact info-->
+            <h2 style="font-size: 18px;">Contact info:</h2>
+            <ul> 
+                <li><a href="Ephraim.Axelsson@gmail.com">Email: Ephraim.Axelsson@gmail.com</a> </li>
+                <li><a href="Phone: +46735886189">0735886189</a> </li>
+                <li><a href="Contact.html">Contact form</a></li>
+            </ul>
+            <h2 style="font-size: 18px;">Social media links:</h2>
+            <ul><!--Social media links-->
+                <li> <a href="https://github.com/Ephraim-Axelsson" target="_blank">Github</a> </li>
+                <li> <a href="https://www.linkedin.com/in/ephraim-axelsson-80129615b/" target="_blank">LinkedIn</a> </li>
+            </ul>
+        </section>
+        <section>   <!--Copyright-->
+            <h3 style="font-size: 16px;">© 2024 Ephraim Axelsson Sweden, All rights reserved </h3>
+            </section>
+        </footer>
+    
+</body>
+</html>
